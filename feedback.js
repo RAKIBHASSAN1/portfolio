@@ -1,4 +1,4 @@
-const sheetName = 'Sheet1'
+const sheetName = 'feedback'
 const scriptProp = PropertiesService.getScriptProperties()
 
 function intialSetup () {
