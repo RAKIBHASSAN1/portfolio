@@ -232,23 +232,23 @@
                 </div>
                 <div class="column right">
                     <div class="text">Feedback me</div>
-                    <form method="POST" action="feedback.js">
+                    <form method="POST" autocomplete="off" name="google-sheet">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="Name" placeholder="Name" value="" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="Email" placeholder="Email" value="" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="Subject" placeholder="Subject" value="" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="Message" placeholder="Message.." value="" required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Give Feedback</button>
+                            <button type="submit" name="submit">Give Feedback</button>
                         </div>
                     </form>
                 </div>
@@ -260,6 +260,17 @@
     <footer>
         <span>All rights reserved by  | <span class="far fa-copyright"></span> Rakib Hassan @2022</span>
     </footer>
+    <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVjO6xC7T0I/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
     <script src="feedback.js"></script>
     <script src="script.js"></script>
 </body>
