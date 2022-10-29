@@ -42,27 +42,78 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Rakib Hassan</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="mailto:tipusultan9t7a@gmail.com">Hire me</a>
+                <a style="margin-right: 2%;"href="mailto:tipusultan9t7a@gmail.com">Hire me</a>
+                <a href="#contact">Contact me</a>
+
             </div>
         </div>
     </section>
 
     <!-- about section start -->
     <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <button class="tablink" onclick="openPage('Programmer', this, 'red')">Programmer</button>
+        <button class="tablink" onclick="openPage('Devoloper', this, 'red')" id="defaultOpen">Developer</button>
+        <button class="tablink" onclick="openPage('SEO_Excutive', this, 'red')">SEO Excutive</button>
+        <button class="tablink" onclick="openPage('Infulancer', this, 'red')">Infulancer</button>
+        <div id="Programmer" class="tabcontent">
             <div class="about-content">
                 <div class="column left">
                       <img src="images/mhjohn.jpg" alt="">  
                 </div>
                 <div class="column right">
-                   
-                          <div class="text">I'm Rakib and I'm a <span class="typing-2"></span></div>
-            <p>I am a noob programming geek, a lover of freedom, and an enthusiast of technology. I studied Computer Science and Engineering (CSE) at Stamford University Bangladesh. I love to do research works on machine learning and deep learning too. Besides web desiging & developing, I write articles. At the time of my study break, I try to create different projects which are academic and non-academic. I've also participated in different Project Shows, Programming Contests, and International Conferences. At my leisure, love to play games and read story books. I love music. I am very keen to do social work.</p>
-            <a href="https://drive.google.com/drive/u/0/search?q=.pdf" >Download CV</a>
+                         
+                    <div class="text">I'm Rakib and I'm a <span class="typing-2"></span></div>
+                    <p>I am a programming, a lover of freedom, and an enthusiast of technology. I studied Computer Science and Engineering (CSE) at Stamford University Bangladesh. I love to do research works on machine learning and deep learning too. Besides web desiging & developing, I write articles. At the time of my study break, I try to create different projects which are academic and non-academic. I've also participated in different Project Shows, Programming Contests, and International Conferences. At my leisure, love to play games and read story books. I love music. I am very keen to do social work.</p>
+                    <a href="https://drive.google.com/uc?id=13RmMahQmokHvTEJUn9hsGMlxKsZA-Iop&export=download" >Download CV</a>
                 </div>
             </div>
         </div>
+
+        <div id="Devoloper" class="tabcontent">
+            <div class="about-content">
+                <div class="column left">
+                      <img src="images/mhjohn.jpg" alt="">  
+                </div>
+                <div class="column right">
+                         
+                    <div class="text">I'm Rakib and I'm a <span class="typing-3"></span></div>
+                    <p>I am a programming, a lover of freedom, and an enthusiast of technology. I studied Computer Science and Engineering (CSE) at Stamford University Bangladesh. I love to do research works on machine learning and deep learning too. Besides web desiging & developing, I write articles. At the time of my study break, I try to create different projects which are academic and non-academic. I've also participated in different Project Shows, Programming Contests, and International Conferences. At my leisure, love to play games and read story books. I love music. I am very keen to do social work.</p>
+                    <a href="https://drive.google.com/uc?id=13RmMahQmokHvTEJUn9hsGMlxKsZA-Iop&export=download" >Download CV</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="SEO_Excutive" class="tabcontent">
+            <div class="about-content">
+                <div class="column left">
+                      <img src="images/mhjohn.jpg" alt="">  
+                </div>
+                <div class="column right">
+                         
+                    <div class="text">I'm Rakib and I'm a <span class="typing-4"></span></div>
+                    <p>I am a programming, a lover of freedom, and an enthusiast of technology. I studied Computer Science and Engineering (CSE) at Stamford University Bangladesh. I love to do research works on machine learning and deep learning too. Besides web desiging & developing, I write articles. At the time of my study break, I try to create different projects which are academic and non-academic. I've also participated in different Project Shows, Programming Contests, and International Conferences. At my leisure, love to play games and read story books. I love music. I am very keen to do social work.</p>
+                    <a href="https://drive.google.com/uc?id=13RmMahQmokHvTEJUn9hsGMlxKsZA-Iop&export=download" >Download CV</a>
+                </div>
+            </div>
+       </div>
+
+       <div id="Infulancer" class="tabcontent">
+        <div class="about-content">
+            <div class="column left">
+                  <img src="images/mhjohn.jpg" alt="">  
+            </div>
+            <div class="column right">
+                     
+                <div class="text">I'm Rakib and I'm a <span class="typing-5"></span></div>
+                <p>I am a programming, a lover of freedom, and an enthusiast of technology. I studied Computer Science and Engineering (CSE) at Stamford University Bangladesh. I love to do research works on machine learning and deep learning too. Besides web desiging & developing, I write articles. At the time of my study break, I try to create different projects which are academic and non-academic. I've also participated in different Project Shows, Programming Contests, and International Conferences. At my leisure, love to play games and read story books. I love music. I am very keen to do social work.</p>
+                <a href="https://drive.google.com/uc?id=13RmMahQmokHvTEJUn9hsGMlxKsZA-Iop&export=download" >Download CV</a>
+            </div>
+        </div>
+      </div>
+        
+    </div>
     </section>
 
     <!-- services section start -->
@@ -90,6 +141,13 @@
                         <div class="text">Web Development
                         </div>
                         <p>Although I am a noob programmer but I always try to give my best to develop a site.</p>
+                    </div>
+                </div>
+                <div class="card" style="margin-top:2%;">
+                    <div class="box">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="text">Digital Marketing</div>
+                        <p>Though there is no limitations about learning but I know how to Rank a website Top in google.</p>
                     </div>
                 </div>
                </div>
@@ -170,8 +228,8 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-2.jpg" alt="">
-                        <div class="text">Rakib Hassan</div>
-                        <p>Marketing Lead at CureTech BD</p>
+                        <div class="text">Mehedi Hasan John</div>
+                        <p>Web Developer</p>
                     </div>
                 </div>
                 <div class="card">
@@ -272,6 +330,24 @@
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
+          <script>
+            function openPage(pageName,elmnt,color) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+              }
+              document.getElementById(pageName).style.display = "block";
+              elmnt.style.backgroundColor = color;
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
     <script src="script.js"></script>
 </body>
 </html>
