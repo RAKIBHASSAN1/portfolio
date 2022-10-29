@@ -41,13 +41,30 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
+    var typed = new Typed(".typing-3", {
         strings: ["Web Designer", "Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-
+    var typed = new Typed(".typing-2", {
+        strings: ["Programmer", "Coder"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-4", {
+        strings: ["Seo Excutive", "Digital Marketer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-5", {
+        strings: ["Influencer", "Social Awarness Creator"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
