@@ -17,7 +17,7 @@
     width: 750px;
 }
 .tab_menu {
-    margin-left: 15%;
+    margin-left: 5%;
     width: 70%;
     height: 110px;
     background: #fff;
@@ -33,24 +33,24 @@
 
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5),.tab_menu ul li:nth-child(3),.tab_menu ul li:nth-child(1) {
     background: #002147;
-    transform: skew(-45deg);
+    transform: skew(-25deg);
 	color:#fff;
 }
 
 .tab_menu ul li:nth-child(6),.tab_menu ul li:nth-child(4),.tab_menu ul li:nth-child(2) {
     background: #d4a81e;
-    transform: skew(-45deg);
+    transform: skew(-25deg);
 	color:#fff;
 }
 
 .tab_menu ul li:nth-child(7) a,.tab_menu ul li:nth-child(5) a,.tab_menu ul li:nth-child(3) a ,.tab_menu ul li:nth-child(1) a{
-    transform: skew(45deg);
+    transform: skew(25deg);
 	float: left;
 	color: #fff;
 }
 
 .tab_menu ul li:nth-child(6) a,.tab_menu ul li:nth-child(4) a,.tab_menu ul li:nth-child(2) a {
-    transform: skew(45deg);
+    transform: skew(25deg);
 	float: left;
 	color: #fff;
 }
