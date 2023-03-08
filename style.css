@@ -7,17 +7,18 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 .tab_menu {
     overflow: scroll;
+    font-family: poppins;
 }
 .tab_menu ul {
-    width: 950px;
-}
-html{
-    scroll-behavior: smooth;
+    width: 750px;
 }
 .tab_menu {
-    width: 100%;
+    margin-left: 15%;
+    width: 70%;
     height: 110px;
     background: #fff;
     float: left;
@@ -29,6 +30,7 @@ html{
     overflow: hidden;
     padding: 0 30px;
 }
+
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
     background: #002147;
     transform: skew(-30deg);
@@ -46,6 +48,7 @@ html{
 	float: left;
 	color: #fff;
 }
+
 .tab_menu ul li:nth-child(6) a {
     transform: skew(30deg);
 	float: left;
@@ -59,7 +62,6 @@ html{
     width: 100%;
     float: left;
 }
-
 .tab_menu ul li {
     width: 14.25%;
     float: left;
@@ -67,13 +69,43 @@ html{
     display: flex;
     justify-content: center;
 }
-.tab_menu {
-    overflow-x: scroll !important;
+
+span.icon {
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 
-.tab_menu {
-  padding: 0 13px;
+span.icon img {
+    height: 35px;
 }
+
+
+
+
+@media (max-width: 690px){
+    .tab_menu{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .tab_menu {
+        overflow-y: hidden !important;
+        padding: 0 30px;
+    }
+}
+@media (max-width: 767px){
+    .tab_menu {
+        overflow-x: scroll !important;
+    }
+    
+    .tab_menu {
+      padding: 0 13px;
+    }
+}
+
 /* Style tab links */
 .tablink {
     background-color: #555;
