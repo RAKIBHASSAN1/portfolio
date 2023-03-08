@@ -17,7 +17,7 @@
     width: 750px;
 }
 .tab_menu {
-    margin-left: 5%;
+    margin-left: 15%;
     width: 70%;
     height: 110px;
     background: #fff;
@@ -63,7 +63,7 @@
     float: left;
 }
 .tab_menu ul li {
-    width: 14.25%;
+    width: 16.25%;
     float: left;
     padding: 25px 0;
     display: flex;
