@@ -30,7 +30,9 @@
     overflow: hidden;
     padding: 0 30px;
 }
-
+.tab_menu ul{
+margin-left:2%;
+}
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5),.tab_menu ul li:nth-child(3),.tab_menu ul li:nth-child(1) {
     background: #002147;
     transform: skew(-25deg);
