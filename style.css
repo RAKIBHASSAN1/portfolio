@@ -43,13 +43,13 @@
 	color:#fff;
 }
 
-.tab_menu ul li:nth-child(7) a,.tab_menu ul li:nth-child(5) a {
+.tab_menu ul li:nth-child(7) a,.tab_menu ul li:nth-child(5) a,.tab_menu ul li:nth-child(3) a ,.tab_menu ul li:nth-child(1) a{
     transform: skew(30deg);
 	float: left;
 	color: #fff;
 }
 
-.tab_menu ul li:nth-child(6) a {
+.tab_menu ul li:nth-child(6) a,.tab_menu ul li:nth-child(4) a,.tab_menu ul li:nth-child(2) a {
     transform: skew(30deg);
 	float: left;
 	color: #fff;
