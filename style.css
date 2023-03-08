@@ -31,13 +31,13 @@
     padding: 0 30px;
 }
 
-.tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
+.tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5),.tab_menu ul li:nth-child(3),.tab_menu ul li:nth-child(1) {
     background: #002147;
     transform: skew(-30deg);
 	color:#fff;
 }
 
-.tab_menu ul li:nth-child(6) {
+.tab_menu ul li:nth-child(6),.tab_menu ul li:nth-child(4),.tab_menu ul li:nth-child(2) {
     background: #d4a81e;
     transform: skew(-30deg);
 	color:#fff;
