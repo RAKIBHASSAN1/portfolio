@@ -83,6 +83,71 @@ span.icon img {
 }
 
 
+/* button */
+.btn_container .glowing_btn1, .glowing_btn2 {
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.btn_container .glowing_btn1 {
+    border-color: #206592;
+}
+
+.btn_container .glowing_btn2 {
+    border-color: #ce5c0c;
+}
+.btn_container .glowing_btn1:before,
+.btn_container .glowing_btn2:before,
+.btn_container .glowing_btn1:after,
+.btn_container .glowing_btn2:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+}
+
+.btn_container .glowing_btn1:before,
+.btn_container .glowing_btn2:before{
+    width: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+}
+
+.btn_container .glowing_btn1:after, 
+.btn_container .glowing_btn2:after {
+    width: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+}
+
+.btn_container .glowing_btn1:hover:before,
+.btn_container .glowing_btn2:hover:before,
+.btn_container .glowing_btn1:hover:after,
+.btn_container .glowing_btn2:hover:after {
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+}
+
+.btn_container .glowing_btn1:hover, 
+.btn_container .glowing_btn2:hover {
+    color: #f2f2f2;
+}
+
+.btn_container .glowing_btn1 {
+    background: #206592;
+}
+
+.btn_container .glowing_btn2 {
+    background: #ce5c0c;
+}
+
+/* button */
 
 
 @media (max-width: 690px){
